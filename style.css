@@ -1,0 +1,63 @@
+.left-menu{
+    background-color: cornflowerblue;
+}
+.left-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.left-menu ul li a{
+    display: block;
+    color: whitesmoke;
+    padding: 15px;
+    text-decoration: none;
+}
+.left-menu ul li a:hover{
+    background-color: teal;
+}
+.sub-menu{
+    width: 80%;
+    background-color: gray;
+    margin-left: 10%;
+}
+.item{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.item .box{
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.item .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.item .box .cost{
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0, 128, 128, 0.61);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.item .box .cost:hover{
+    background-color: crimson;
+}
+#demo{
+    font-size: 40px;
+    color: teal;
+}
